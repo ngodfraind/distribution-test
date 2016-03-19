@@ -1,0 +1,17 @@
+# app/config/config.yml
+fos_rest:
+    disable_csrf_role: ROLE_API
+    param_fetcher_listener: true
+    body_listener: true
+    format_listener: true
+    view:
+        view_response_listener: 'force'
+        formats:
+            json: true
+            xml: true
+            html: true
+    format_listener:
+        rules:
+            priorities: ['json']
+            fallback_format: json
+            prefer_extension: true
