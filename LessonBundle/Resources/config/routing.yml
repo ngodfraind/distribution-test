@@ -1,0 +1,4 @@
+icap_lesson:
+    resource: "@IcapLessonBundle/Controller/"
+    type:     annotation
+    prefix:   /
