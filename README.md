@@ -1,51 +1,22 @@
-# Distribution
-Official distribution of Claroline Connect LMS
+Size: ~100M
 
-> [Installation instruction](https://github.com/claroline/Claroline/blob/master/README.md)
+Commits: ~14000
 
-# Base Bundle
+Cloc output:
 
-- [ ] CoreBundle
-- [ ] BundleRecorder
-- [ ] InstallationBundle
-- [ ] MigrationBundle
-- [ ] KernelBundle
-- [ ] WebInstallerBundler
- 
-# Official Plugins
-
-- [ ] ForumBundle
-- [ ] MessageBundle
-- [ ] PdfPlayerBundle
-- [ ] CursusBundle
-- [ ] VideoPlayerBundle
-- [ ] ScormBundle
-- [ ] AgendaBundle
-- [ ] ActivityToolBundle
-- [ ] RssReaderBundler
-- [ ] ImagePlayerBundle
-- [ ] TextPlayerBundle
-- [ ] TeamBundle
-- [ ] TagBundle
-- [ ] LdapBundle
-- [ ] AnnoucementBundle
-- [ ] SurveyBundle
-- [ ] WebRessourceBundle
-- [ ] PresenceBundle
-- [ ] ReservationBundle
-- [ ] SupportBundle
-- [ ] CompetencyBundle
-- [ ] FavouriteBundle
-- [ ] UrlBundle
-- [ ] BadgeBundle
-- [ ] BlogBundle
-- [ ] WikiBundle
-- [ ] DropZoneBundle
-- [ ] LessonBundle
-- [ ] PortfolioBundle
-- [ ] WebsiteBundle
-- [ ] oAuthBundle
-- [ ] PathBundle
-- [ ] CollecticielBundle
-- [ ] ExoBundle
-
+```
+Language                     files          blank        comment           code
+-------------------------------------------------------------------------------
+PHP                           2752          41876          72941         230939
+Twig                          1040           4964            468          60030
+JavaScript                     494           6623           6064          41383
+YAML                           493            632            218          17259
+LESS                            38            651            220           4911
+CSS                             45            562            404           4027
+JSON                           116              1              0           2599
+HTML                            69            201            261           2542
+XML                             16             90              1            489
+-------------------------------------------------------------------------------
+SUM:                          5063          55600          80577         364179
+-------------------------------------------------------------------------------
+```
