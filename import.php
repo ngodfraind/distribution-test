@@ -28,16 +28,16 @@ if ($namespace !== 'Claroline') {
   $iteratorIterator = new RecursiveIteratorIterator($iterator);
   $sources = new RegexIterator(
     $iteratorIterator,
-    '/^.+\.php$/i',
+    '/^.+\.(php|yaml|yml|xml)$/i',
     RecursiveRegexIterator::GET_MATCH
   );
 
   foreach ($sources as $file) {
-    cmd("sed -i -e 's/namespace\s\+{$namespace}/namespace Claroline/' {$file[0]}");
+    cmd("sed -i -e 's/{$namespace}/Claroline/' {$file[0]}");
   }
 
   cmd("git add .");
-  cmd("git commit -m '([$bundle] Switch to Claroline namespace'");
+  cmd("git commit -m '[$bundle] Switch to Claroline namespace'");
 }
 
 // Merge the branch into master using subtree feature
