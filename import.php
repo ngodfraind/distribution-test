@@ -28,7 +28,7 @@ if ($namespace !== 'Claroline') {
   $iteratorIterator = new RecursiveIteratorIterator($iterator);
   $sources = new RegexIterator(
     $iteratorIterator,
-    '/^.+\.(php|yaml|yml|xml)$/i',
+    '/^.+\.(php|yaml|yml|xml|twig|twigjs)$/i',
     RecursiveRegexIterator::GET_MATCH
   );
 
